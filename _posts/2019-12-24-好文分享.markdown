@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "好文分享"
 date:   2019-12-24 10:51:17 +0800
 categories: jekyll update
 ---
