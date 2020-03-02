@@ -8,4 +8,4 @@ categories: 网站
 [百度][baidu]
 
 
-[baidu]: https://www.baidu.com
+[baidu]: https://www.baidu.com {:target="_blank"}
