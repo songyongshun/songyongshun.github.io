@@ -8,8 +8,9 @@ categories: 网站
 [百度][baidu]{:target="_blank"}
 
 [必应][biying]{:target="_blank"}
-[每日词汇][https://cn.bing.com/dict]{:target="_blank"}
+[每日词汇][cihui]{:target="_blank"}
 
 
 [baidu]: https://www.baidu.com
-[baidu]: https://cn.bing.com
+[biying]: https://cn.bing.com
+[cihui]: https://cn.bing.com/dict
