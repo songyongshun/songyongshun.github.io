@@ -12,6 +12,8 @@ categories: 网站
 
 [pubchem:化学分子查询][fenzi]{:target="_blank"}
 
+[字体大全--微软提供][font]{:target="_blank"}
+
 [上海应用物理研究所][wuli]{:target="_blank"}
 
 [baidu]: https://www.baidu.com
@@ -19,3 +21,4 @@ categories: 网站
 [cihui]: https://cn.bing.com/dict
 [fenzi]:https://pubchem.ncbi.nlm.nih.gov
 [wuli]:http://www.sinap.ac.cn
+[font]:https://docs.microsoft.com/zh-cn/typography
