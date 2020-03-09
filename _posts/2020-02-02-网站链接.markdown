@@ -14,6 +14,9 @@ categories: 网站
 
 [字体大全--微软提供][font]{:target="_blank"}
 
+[MS Word使用手册][word]{:target="_blank"}
+
+
 [上海应用物理研究所][wuli]{:target="_blank"}
 
 [baidu]: https://www.baidu.com
@@ -22,3 +25,4 @@ categories: 网站
 [fenzi]:https://pubchem.ncbi.nlm.nih.gov
 [wuli]:http://www.sinap.ac.cn
 [font]:https://docs.microsoft.com/zh-cn/typography
+[word]:https://support.office.com/en-us/word
