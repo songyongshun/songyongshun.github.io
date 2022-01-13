@@ -1,95 +1,28 @@
 <!doctype html public "-//w3c//dtd html 4.0 transitional//en">
 <html>
-<head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>AliYun Server</title>
-   <link type="text/css" rel='stylesheet' href="./styles/style.css" charset="utf-8"/>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Yongshun Song's Homepage</title>
+   </head>
+   <body text="#000066" bgcolor="#99CCCC" link="#0000CC" vlink="#008000" alink="#0000CC">
+      <center>
+         <img SRC="files/aniwhack.gif" height=45 width=105>
+         <h1>
+            Yongshun Song's Homepage
+         </h1>
+         <img SRC="files/rule10.gif" height=22 width=468>
+      </center>
 
-   <script>
-      function startTime(){
-         var today=new Date();
-         var h=today.getHours();
-         var m=today.getMinutes();
-         var s=today.getSeconds();// 在小于10的数字前加一个‘0’
-         m=checkTime(m);
-         s=checkTime(s);
-         // get txt from body, and output to it.
-         document.getElementById('txt').innerHTML=h+":"+m+":"+s;
-         // setTimeout is a js function, startTime run after loaded 500ms.
-         setTimeout(function(){startTime()},500);
-      }
-      function checkTime(i){
-         if (i<10){
-            i="0" + i;
-         }
-         return i;
-      }
+      <p><a href="website.html">Useful Websites</a> </p>
 
-      // ajax example
-      function loadXMLDoc()
-      {
-         var xmlhttp;
-         if (window.XMLHttpRequest)
-         {
-            //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
-            xmlhttp=new XMLHttpRequest();
-         }
-         else
-         {
-            // IE6, IE5 浏览器执行代码
-            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-         }
-         xmlhttp.onreadystatechange=function()
-         {
-            if (xmlhttp.readyState==4 && xmlhttp.status==200)
-            {
-               document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
-            }
-         }
-         // 本地run,需要start a server, not only .\index.html.
-         // ajax_info.txt内容会被缓存，添加新的内容，不妨修改个名字，比如1.txt.
-         xmlhttp.open("GET","ajax_info.txt",true);
-         xmlhttp.send();
-      }
+      <p><a href="traffic.html">Vpn Traffics</a> </p>
 
-      window.onload=function(){
-         var oInput=document.createElement("input");
-         oInput.type="text";
-         document.body.appendChild(oInput);
-      }
-      </script>
-</head>
-<body onload="startTime()">
+      <p><a href="index.php">php test (cannot run by python simple httpserver)</a></p>
+      <p><a href="animate.html">animate</a> </p>
+      <p><a href="p5.html">p5 examples</a> </p>
 
-<p> <a href="website.html" target="_blank">Useful Websites</a> </p>
-<p> <a href="http://www.wedw.xyz/traffic.html" target="_blank">vpn traffic</a> </p>
-<p> <a href="https://phet.colorado.edu/en/simulation/wave-interference" target="_blank">光的干涉</a> </p>
-
-<p> <a href="http://www.wedw.xyz/files/drude-1ubq.zip" target="_blank">drude-1ubq.zip</a> </p>
-
-<p> <a href="http://www.wedw.xyz/jsmol/index.html" target="_blank">3个AYFFF的结构 By Jmol</a> </p>
-
-
-<p> <a href="http://www.wedw.xyz/index.html" target="_blank">php test</a> </p>
-
-<div id="txt"></div>
-
-<div id="myDiv"><h3>Let AJAX change this text</h3></div>
-<button type="button" onclick="loadXMLDoc()">Change Content</button>
-
-<!-- action can be not a php or asp file, this will go to the file.-->
-<form action='./1.html'>
-   text box (for test only):<br>
-   <input type="text" name="firstname" value="">
-   <br>
-   <input type="submit" value="Submit">
-</form> 
-
-<p style="width:500px; color:yellow; background-color:red; border:dotted thin blue; text-align:center;">内嵌样式</p>
-
-<p> 外部样式</p>
-
-<font size=-1>last update: 2021-4-9 </font>
-</body>
-</html> 
+      <font size=-1>last update: 2022-1-6 </font>
+   
+   </body>
+</html>
