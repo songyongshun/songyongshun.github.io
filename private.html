@@ -1,0 +1,37 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <SCRIPT language=JavaScript>
+    function password() {
+      var testV = 1;
+      var pass1 = prompt('请输入密码:', '');
+      while (testV < 3) {
+        if (!pass1)
+          history.go(-1);
+        if (pass1 == "sYs") {
+          alert('密码正确!');
+          break;
+        }
+        testV += -1;
+        var pass1 = prompt('密码错误!请重新输入:');
+      }
+      if (pass1 != "password" & testV == 3)
+        history.go(-1);
+      return " ";
+    }
+    document.write(password());
+  </SCRIPT>
+   <title>Useful Websites</title>
+</head>
+<body>
+我的个人账户
+<p> <a href="应用及账户.mht" target="_blank"><font color="#e33222">应用及账户</font></a> </p>
+
+
+
+
+<font size=-1>last update: 2021-3-19 </font>
+</body>
+</html>
