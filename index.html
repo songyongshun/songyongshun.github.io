@@ -5,7 +5,28 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <SCRIPT language=JavaScript>
+    function password() {
+      var testV = 1;
+      var pass1 = prompt('请输入密码:', '');
+      while (testV < 3) {
+        if (!pass1)
+          history.go(-1);
+        if (pass1 == "这里输入你想设置的密码") {
+          alert('密码正确!');
+          break;
+        }
+        testV += -1;
+        var pass1 = prompt('密码错误!请重新输入:');
+      }
+      if (pass1 != "password" & testV == 3)
+        history.go(-1);
+      return " ";
+    }
+    document.write(password());
+  </SCRIPT>
   <title>Yongshun Song's Homepage</title>
+
 </head>
 
 <body text="#000066" bgcolor="#99CCCC" link="#0000CC" vlink="#008000" alink="#0000CC">
@@ -30,6 +51,7 @@
   <p><a href="http://8.210.49.217">more</a> </p>
   <p><a href="http://120.26.13.75">ali2_server</a> </p>
   <p> <a href="http://8.210.49.217/jsmol/index.html" target="_blank">3个AYFFF的结构 By Jmol</a> </p>
+  <p> <a href="website.html" target="_blank">vpn</a> </p>
 
   <br>
 
