@@ -24,13 +24,13 @@ repository               : "songyongshun/songyongshun.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Yongshun Song"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "讲师"
+  location         : "Changzhou, China"
+  employer         : "常州工业职业技术学院"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "ys_song@foxmail.com" 
 
   # Academic websites
   academia         : # URL
