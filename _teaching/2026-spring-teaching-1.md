@@ -9,11 +9,14 @@ location: "Changzhou, China"
 ---
 
 
-下载
+2026-3-9课程内容：
+===========
 
-1. 文件传输及下载软件：[Resilio Sync](/files/soft/Resilio-Sync_x64.exe)
+## 安装Linux操作系统并熟悉基本界面
 
-Linux系统镜像：Ubuntu 24.04 LTS:
+- 文件传输及下载软件：[Resilio Sync](/files/soft/Resilio-Sync_x64.exe)
+
+- Linux系统镜像：Ubuntu 24.04 LTS:
 分享码：**BAOVRIZUYKI3RTFZHYOO43DIJR26ME7JY**
 
 
@@ -28,4 +31,9 @@ VMware Workstation Pro:
 CentOS 8:
 分享码：**BWR47UJGTR6CXABOYH5YEVTCERHIZVOHC**
 
+## 基本文件操作
+
+请完成练习题：
+
+[linux基本文件操作练习题](/files/teaching/2026-spring-teaching-1/linux-basic-file-operations-exercises.md)
 
