@@ -35,5 +35,5 @@ CentOS 8:
 
 请完成练习题：
 
-[linux基本文件操作练习题](/files/teaching/2026-spring-teaching-1/linux-basic-file-operations-exercises.md)
+[linux基本文件操作练习题](/files/teaching/2026-spring-teaching-1/1-Linux基本文件操作练习题.pdf)
 
