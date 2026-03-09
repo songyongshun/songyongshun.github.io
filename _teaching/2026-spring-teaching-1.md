@@ -8,13 +8,24 @@ date: 2026-03-01
 location: "Changzhou, China"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
-======
+下载
 
-Heading 2
-======
+1. 文件传输及下载软件：[Resilio Sync](/files/soft/Resilio-Sync_x64.exe)
 
-Heading 3
-======
+Linux系统镜像：Ubuntu 24.04 LTS:
+分享码：**BAOVRIZUYKI3RTFZHYOO43DIJR26ME7JY**
+
+
+自己笔记本上请下载：
+
+VMware Workstation Pro:
+分享码：**BBJCNQXCWVBFCMF5633475Q7RYOW7MV6J**
+
+
+可选安装（教室学生机上已经安装）：
+
+CentOS 8:
+分享码：**BWR47UJGTR6CXABOYH5YEVTCERHIZVOHC**
+
+
