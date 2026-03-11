@@ -37,10 +37,13 @@ location: "Changzhou, China"
 4.2 在**系统状态栏**中，点击网络图标，查看当前的网络连接状态。
 
 5. 练习文件基本操作
-请完成以下练习题，练习Linux系统中的基本文件操作：
+请下载该文件，[basic-file.sh](/files/teaching/2026-spring-teaching-1/basic-file.sh)
 
+存储到/home/lenovo目录下，并使用终端进入该目录，执行以下命令：
 
-
-
-[linux基本文件操作练习题](/files/teaching/2026-spring-teaching-1/1-Linux基本文件操作练习题.pdf)
-
+```bash
+cd /home/lenovo
+chmod +x basic-file.sh
+./basic-file.sh
+```
+该脚本将创建一个名为“basic-file-command”的目录。可以使用文件管理器浏览到该目录，查看文件内容如何随着练习的进程而发生变化。
