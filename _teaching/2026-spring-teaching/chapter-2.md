@@ -1,6 +1,8 @@
 ---
 title: "Linux用户和权限管理"
 collection: teaching
+chapter: true
+chapter_order: 2
 type: "Undergraduate course"
 permalink: /teaching/2026-spring-teaching/chapter-2
 venue: "常州工业职业技术学院, 信息工程学院"

@@ -1,8 +1,10 @@
 ---
-title: "Linux管理"
+title: "Linux界面、网络连接和基本文件操作"
 collection: teaching
+chapter: true
+chapter_order: 1
 type: "Undergraduate course"
-permalink: /teaching/2026-spring-teaching-1
+permalink: /teaching/2026-spring-teaching/chapter-1
 venue: "常州工业职业技术学院, 信息工程学院"
 date: 2026-03-01
 location: "Changzhou, China"
@@ -41,19 +43,19 @@ location: "Changzhou, China"
 
 - 在VMWare Workstation软件中，顶部菜单栏找到“编辑”->"虚拟网络编辑器"，在弹出的窗口中点击“添加网络”，选择一个未使用的网络（例如VMNet8），点击“确定”完成添加。
 - 如果“添加网络”按钮不可用，请先点击“更改设置”按钮，输入管理员密码后再进行添加。
-![alt text](image.png)
+![alt text](/teaching/image.png)
 
 - 在“虚拟网络编辑器”窗口中，选择刚才添加的网络（例如VMNet8），将“连接类型”设置为“NAT”，点击“确定”保存设置。
 - 在子网设置中，确保子网IP地址和子网掩码设置正确，例如：
   - 子网IP地址：192.168.118.0
   - 子网掩码：255.255.255.0
 
-![alt text](image-1.png)
+![alt text](/teaching/image-1.png)
 
 - 在VMWare Workstation软件中，顶部菜单栏找到“虚拟机”->“设置”，将“网络适配器”的“网络连接”设置为NAS模式。
-![alt text](image-2.png)
+![alt text](/teaching/image-2.png)
 - 在**系统状态栏**中，点击网络图标，查看当前的网络连接状态。当出现“已连接（Wired Connected）”状态时，说明网络连接成功。可以尝试打开Firefox浏览器，访问一个网站（例如www.baidu.com）来验证网络连接是否正常。
-![alt text](image-3.png)
+![alt text](/teaching/image-3.png)
 
 ## 使用终端练习文件基本操作
 请下载该文件，[basic-file.sh](/files/teaching/2026-spring-teaching-1/basic-file.sh)

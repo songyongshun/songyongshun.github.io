@@ -7,6 +7,16 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign chapters = site.teaching | where: "chapter", true | sort: "chapter_order" %}
+
+{% if chapters.size > 0 %}
+  <ol class="teaching__chapters">
+    {% for chapter in chapters %}
+      <li class="teaching__chapter">
+        <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+{% else %}
+  <p>暂无课程章节。</p>
+{% endif %}

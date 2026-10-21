@@ -1,6 +1,7 @@
 ---
 title: "Linux管理"
 collection: teaching
+course_index: true
 type: "Undergraduate course"
 permalink: /teaching/2026-spring-teaching-1
 venue: "常州工业职业技术学院, 信息工程学院"

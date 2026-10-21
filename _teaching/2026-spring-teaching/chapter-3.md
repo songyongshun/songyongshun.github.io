@@ -1,6 +1,8 @@
 ---
 title: "Linux软件安装和包管理"
 collection: teaching
+chapter: true
+chapter_order: 3
 type: "Undergraduate course"
 permalink: /teaching/2026-spring-teaching/chapter-3
 venue: "常州工业职业技术学院, 信息工程学院"
