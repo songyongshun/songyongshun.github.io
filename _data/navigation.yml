@@ -7,15 +7,6 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
-# 常用站点链接
-# name : 显示名称
-# url  : 链接地址
-# desc : 备注说明（可选）
-links:
-  - name: "课堂签到"
-    url: "http://47.103.9.15:8000/checkin/manage.html"
-    desc: "课程点名与签到管理"
-
 main:
 #  - title: "Publications"
 #    url: /publications/
